@@ -1,0 +1,12 @@
+Source: ros-jade-pluginlib-tutorials
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-pluginlib, ros-jade-roscpp
+Homepage: http://www.ros.org/wiki/pluginlib/Tutorials
+Standards-Version: 3.9.2
+
+Package: ros-jade-pluginlib-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-pluginlib, ros-jade-roscpp
+Description: The pluginlib_tutorials package
