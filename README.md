@@ -1,3 +1,29 @@
+## common_tutorials (jade) - 0.1.8-0
+
+The packages in the `common_tutorials` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade -n common_tutorials` on `Wed, 31 Dec 2014 22:53:37 -0000`
+
+These packages were released:
+- `actionlib_tutorials`
+- `common_tutorials`
+- `nodelet_tutorial_math`
+- `pluginlib_tutorials`
+- `turtle_actionlib`
+
+Version of package(s) in repository `common_tutorials`:
+- upstream repository: https://github.com/ros/common_tutorials.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.8-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## common_tutorials (indigo) - 0.1.8-0
 
 The packages in the `common_tutorials` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo common_tutorials` on `Wed, 05 Nov 2014 13:30:06 -0000`
