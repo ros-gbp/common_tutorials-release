@@ -1,0 +1,12 @@
+Source: ros-jade-common-tutorials
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://ros.org/wiki/common_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-jade-common-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-actionlib-tutorials, ros-jade-nodelet-tutorial-math, ros-jade-pluginlib-tutorials, ros-jade-turtle-actionlib
+Description: Metapackage that contains common tutorials
