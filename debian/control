@@ -1,0 +1,12 @@
+Source: ros-jade-turtle-actionlib
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-actionlib, ros-jade-actionlib-msgs, ros-jade-angles, ros-jade-catkin, ros-jade-geometry-msgs, ros-jade-message-generation, ros-jade-rosconsole, ros-jade-roscpp, ros-jade-std-msgs, ros-jade-turtlesim
+Homepage: http://ros.org/wiki/turtle_actionlib
+Standards-Version: 3.9.2
+
+Package: ros-jade-turtle-actionlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-actionlib, ros-jade-actionlib-msgs, ros-jade-angles, ros-jade-geometry-msgs, ros-jade-message-runtime, ros-jade-rosconsole, ros-jade-roscpp, ros-jade-std-msgs, ros-jade-turtlesim
+Description: turtle_actionlib demonstrates how to write an action server and client with the turtlesim. The shape_server provides and action interface for drawing regular polygons with the turtlesim.
