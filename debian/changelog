@@ -1,0 +1,9 @@
+ros-kinetic-actionlib-tutorials (0.1.8-0jessie) jessie; urgency=high
+
+  * update package maintainer.
+  * Use _EXPORTED_TARGETS target suffix instead of _generate_messages_cpp
+  * Contributors: Daniel Stonier, Esteve Fernandez
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 05 Nov 2014 08:00:00 -0000
+
+
