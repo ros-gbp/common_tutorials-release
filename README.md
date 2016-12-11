@@ -1,3 +1,31 @@
+## common_tutorials (kinetic) - 0.1.9-0
+
+The packages in the `common_tutorials` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --edit-track --track kinetic --rosdistro kinetic common_tutorials` on `Sun, 11 Dec 2016 01:37:43 -0000`
+
+These packages were released:
+- `actionlib_tutorials`
+- `common_tutorials`
+- `nodelet_tutorial_math`
+- `pluginlib_tutorials`
+- `turtle_actionlib`
+
+Version of package(s) in repository `common_tutorials`:
+
+- upstream repository: https://github.com/ros/common_tutorials.git
+- release repository: https://github.com/ros-gbp/common_tutorials-release.git
+- rosdistro version: `0.1.8-0`
+- old version: `0.1.8-0`
+- new version: `0.1.9-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## common_tutorials (indigo) - 0.1.9-0
 
 The packages in the `common_tutorials` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --edit-track --track indigo --rosdistro indigo common_tutorials` on `Sun, 11 Dec 2016 01:30:43 -0000`
