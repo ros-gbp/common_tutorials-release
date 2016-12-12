@@ -1,0 +1,13 @@
+Source: ros-kinetic-turtle-actionlib
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-turtlesim
+Homepage: http://ros.org/wiki/turtle_actionlib
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-turtle-actionlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-angles, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-turtlesim
+Description: turtle_actionlib demonstrates how to write an action server and client with the turtlesim.
+ The shape_server provides and action interface for drawing regular polygons with the turtlesim.
