@@ -1,0 +1,12 @@
+Source: ros-lunar-actionlib-tutorials
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-actionlib, ros-lunar-actionlib-msgs, ros-lunar-catkin, ros-lunar-message-generation, ros-lunar-roscpp, ros-lunar-std-msgs
+Homepage: http://www.ros.org/wiki/actionlib/Tutorials
+Standards-Version: 3.9.2
+
+Package: ros-lunar-actionlib-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib, ros-lunar-message-runtime, ros-lunar-roscpp
+Description: The actionlib_tutorials package
