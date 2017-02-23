@@ -1,3 +1,31 @@
+## common_tutorials (lunar) - 0.1.10-0
+
+The packages in the `common_tutorials` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --track lunar --rosdistro lunar common_tutorials` on `Thu, 23 Feb 2017 06:41:11 -0000`
+
+These packages were released:
+- `actionlib_tutorials`
+- `common_tutorials`
+- `nodelet_tutorial_math`
+- `pluginlib_tutorials`
+- `turtle_actionlib`
+
+Version of package(s) in repository `common_tutorials`:
+
+- upstream repository: https://github.com/ros/common_tutorials.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.10-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## common_tutorials (indigo) - 0.1.10-1
 
 The packages in the `common_tutorials` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo common_tutorials` on `Mon, 12 Dec 2016 04:51:16 -0000`
