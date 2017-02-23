@@ -1,0 +1,12 @@
+Source: ros-lunar-pluginlib-tutorials
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-pluginlib, ros-lunar-roscpp
+Homepage: http://www.ros.org/wiki/pluginlib/Tutorials
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pluginlib-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-pluginlib, ros-lunar-roscpp
+Description: The pluginlib_tutorials package
