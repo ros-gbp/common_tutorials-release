@@ -1,0 +1,14 @@
+ros-melodic-nodelet-tutorial-math (0.1.11-0bionic) bionic; urgency=high
+
+  * update to use new pluginlib macros
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 30 Mar 2018 04:00:00 -0000
+
+ros-melodic-nodelet-tutorial-math (0.1.8-0bionic) bionic; urgency=high
+
+  * update package maintainer.
+  * Contributors: Daniel Stonier
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 05 Nov 2014 05:00:00 -0000
+
+
