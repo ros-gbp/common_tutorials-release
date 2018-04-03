@@ -1,0 +1,13 @@
+Source: ros-melodic-turtle-actionlib
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-angles, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-rosconsole, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-turtlesim
+Homepage: http://ros.org/wiki/turtle_actionlib
+Standards-Version: 3.9.2
+
+Package: ros-melodic-turtle-actionlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-angles, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-rosconsole, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-turtlesim
+Description: turtle_actionlib demonstrates how to write an action server and client with the turtlesim.
+ The shape_server provides and action interface for drawing regular polygons with the turtlesim.
