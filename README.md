@@ -1,3 +1,31 @@
+## common_tutorials (melodic) - 0.1.11-0
+
+The packages in the `common_tutorials` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --rosdistro melodic common_tutorials` on `Tue, 03 Apr 2018 02:48:34 -0000`
+
+These packages were released:
+- `actionlib_tutorials`
+- `common_tutorials`
+- `nodelet_tutorial_math`
+- `pluginlib_tutorials`
+- `turtle_actionlib`
+
+Version of package(s) in repository `common_tutorials`:
+
+- upstream repository: https://github.com/ros/common_tutorials.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.11-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.3.8`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.40`
+
+
 ## common_tutorials (lunar) - 0.1.10-0
 
 The packages in the `common_tutorials` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --track lunar --rosdistro lunar common_tutorials` on `Thu, 23 Feb 2017 06:41:11 -0000`
