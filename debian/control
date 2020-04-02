@@ -1,0 +1,12 @@
+Source: ros-noetic-pluginlib-tutorials
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-pluginlib, ros-noetic-roscpp
+Homepage: http://www.ros.org/wiki/pluginlib/Tutorials
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pluginlib-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-pluginlib, ros-noetic-roscpp
+Description: The pluginlib_tutorials package
