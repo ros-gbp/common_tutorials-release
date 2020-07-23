@@ -1,0 +1,13 @@
+Source: ros-noetic-turtle-actionlib
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-angles, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-turtlesim
+Homepage: http://ros.org/wiki/turtle_actionlib
+Standards-Version: 3.9.2
+
+Package: ros-noetic-turtle-actionlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-angles, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-turtlesim
+Description: turtle_actionlib demonstrates how to write an action server and client with the turtlesim.
+ The shape_server provides and action interface for drawing regular polygons with the turtlesim.
