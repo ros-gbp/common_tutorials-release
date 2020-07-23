@@ -1,0 +1,12 @@
+Source: ros-noetic-common-tutorials
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/common_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-noetic-common-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib-tutorials, ros-noetic-nodelet-tutorial-math, ros-noetic-pluginlib-tutorials, ros-noetic-turtle-actionlib
+Description: Metapackage that contains common tutorials
