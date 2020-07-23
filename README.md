@@ -1,3 +1,31 @@
+## common_tutorials (noetic) - 0.2.0-1
+
+The packages in the `common_tutorials` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --track noetic --rosdistro noetic common_tutorials` on `Thu, 23 Jul 2020 23:49:15 -0000`
+
+These packages were released:
+- `actionlib_tutorials`
+- `common_tutorials`
+- `nodelet_tutorial_math`
+- `pluginlib_tutorials`
+- `turtle_actionlib`
+
+Version of package(s) in repository `common_tutorials`:
+
+- upstream repository: https://github.com/ros/common_tutorials.git
+- release repository: https://github.com/ros-gbp/common_tutorials-release.git
+- rosdistro version: `0.1.12-1`
+- old version: `0.1.12-1`
+- new version: `0.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## common_tutorials (noetic) - 0.1.12-1
 
 The packages in the `common_tutorials` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --track noetic --rosdistro noetic common_tutorials` on `Thu, 02 Apr 2020 16:29:52 -0000`
